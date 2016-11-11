@@ -1,0 +1,56 @@
+/*!
+ * Personal Style | Arsari
+ */
+.navbar-default .navbar-nav > li > a {
+  height: 90px;
+  padding: 35px;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar-brand > img {
+  width: 25%;
+  display: inline-block;
+}
+
+.navbar-default {
+    background-color: #223843;
+    border-color: #223843;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.active {
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+main .main-wrapper {
+    height: calc(100vh - 140px);
+}
+
+main .main-wrapper .data-block {
+    background: #EB5D5C;
+    text-align: center;
+    padding: 114px 0;
+}
+
+main .main-wrapper .data-block p {
+    margin: 0;
+    font-size: 80px;
+    line-height: .5;
+}
+
+main .main-wrapper .data-block p span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
