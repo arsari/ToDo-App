@@ -34,13 +34,13 @@
 }
 
 main .main-wrapper {
-    height: calc(100vh - 140px);
+    box-shadow: 0 0 4px #999999;
 }
 
 main .main-wrapper .data-block {
     background: #EB5D5C;
     text-align: center;
-    padding: 114px 0;
+    padding: 106px 0;
 }
 
 main .main-wrapper .data-block p {
@@ -53,4 +53,35 @@ main .main-wrapper .data-block p span {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 10px;
+}
+
+main .info-block {
+    background-color: #9f3d3c;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+
+main .info-block p {
+    margin: 0px;
+}
+
+main .task span {
+    float: right;
+}
+
+main .task .checkbox {
+    display: inline-block;
+    margin: 0px;
+}
+
+main .task {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999999;
+}
+
+main .scroll-block {
+    max-height: 25vh;
+    overflow: scroll;
 }
