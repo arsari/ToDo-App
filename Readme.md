@@ -1,3 +1,5 @@
 Author: Arturo Santiago-Rivera
 
-Description: Todo list app
+Description: ToDo list app with jQuery
+
+Completed: Dece 10, 2016
